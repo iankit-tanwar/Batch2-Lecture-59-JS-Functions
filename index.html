@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batch2 Lecture 59 JS Functions</title>
+
+    <style>
+
+    </style>
+
+
+
+    <script>
+        console.log("hello from Head tag");
+
+    </script>
+</head>
+
+<body>
+
+    <script>
+        console.log("hello from body tag");
+
+
+        // functions are resuable block of code 
+        // there are two impt points are
+        //1 function defination one time process
+        //2 function calling many time process
+
+
+        //1 function defiantion
+        function sum(parameter1, parameter2) { // formal arguments
+            // function body
+            //  every function return something 
+            // return result
+
+            return parameter1 + parameter2;
+        }
+
+        //2. Function calling
+        var res = sum(10, 30); // actual arguments
+
+        console.log(res);
+
+        //2 Js Object
+        let object = {
+            name: 'Amit',
+            sname: 'kumar',
+        }
+
+        console.log(object.name + ' ' + object.sname);
+
+
+        // user input calculator
+
+
+        let x = window.prompt("enter first number");
+
+        x = parseFloat(x);
+
+        let y = window.prompt("enter first number");
+
+        y = parseFloat(y);
+
+        alert(x+y);
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
